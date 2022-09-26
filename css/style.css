@@ -99,7 +99,6 @@ p {
     color: #fff;
     padding: 1.6rem 1rem;
     align-self: stretch;
-
 }
 
 #navbar ul li a:hover {
@@ -205,6 +204,16 @@ p {
     #navbar .logo {
         margin-bottom: 0.5rem;
         text-align: center;
+    }
+
+    #navbar ul {
+        justify-content: center;
+    }
+
+    #navbar ul li a {
+        color: #fff;
+        padding: 0.88rem 1rem;
+        align-self: stretch;
     }
 
 
