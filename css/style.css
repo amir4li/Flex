@@ -217,29 +217,36 @@ p {
         align-self: stretch;
     }
 
+    .l-heading {
+        font-size: 3.8rem;
+        text-align: left;
+    }
 
     #showcase {
         background: #333 url("images/filler.jpg")
         no-repeat center center/cover;
-        height: 100vh;
+        height: 80vh;
         color: #fff;
     }
     
     #showcase .showcase-content {
         height: 100%;
-        top: 100px;
+        top: 62px;
     }
 
     #training {
         display: block;
+        padding-top: 3rem;
     }
 
     #training .cards {
+        margin-top: 1.5rem;
         display: block;
     }
 
     #training .cards .card {
         display: block;
+        border-top: 1px solid red;
     }
 
     #contact {
